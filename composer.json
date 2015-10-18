@@ -1,0 +1,25 @@
+{
+  "name": "davepgreene/gitversion",
+  "description": "Output your project's version based on git branches, tags, and commits.\"",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Greene",
+      "email": "davepgreene@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "illuminate/support": "^5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "symfony/var-dumper": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "DGreene\\GitVersion\\": "src"
+    }
+  }
+}
